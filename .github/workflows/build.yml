@@ -8,3 +8,4 @@ jobs:
       debian_source: native
       git_filter: v[0-9\.]*$
       git_tag_match: v([0-9\-]*)
+      build_options: nostrip
